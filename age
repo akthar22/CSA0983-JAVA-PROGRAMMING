@@ -1,0 +1,21 @@
+import java.util.*;
+import java.io.*;
+class age
+{
+public static void main(String args[])
+{
+int a,b;
+Scanner scanner=new Scanner(System.in);
+System.out.println("enter the age");
+a=scanner.nextInt();
+if(a>=18)
+{
+System.out.println("you are eligible");
+}
+else
+b=18-a;
+{
+System.out.println("you are allowed toafter"+b+"years");
+}
+}
+}

@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class year
+{
+public static void main(String args[])
+{
+int n,y,w,d,r;
+Scanner scanner=new Scanner(System.in);
+n=scanner.nextInt();
+System.out.println("enter the num");
+
+y=n/365;
+r=n%365;
+w=n/7;
+d=r%7;
+
+System.out.println("year"+y);
+System.out.println("week"+w);
+System.out.println("days"+d);
+}
+}
+
+

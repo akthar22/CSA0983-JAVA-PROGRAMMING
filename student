@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class student1
+{
+String name;
+int rank;
+ void display();
+{
+System.out.println("name"+name);
+system.out.println("reg"+reg);
+}
+}
+public class student
+{
+public static void main (String[] args);
+{
+Scanner s1=new Scanner();
+
+s1.name="pramila";
+s1.rank=1;
+s1.display();
+}
+}

@@ -1,0 +1,28 @@
+import java.util.Scanner;
+class rectangle
+{
+public static void main(String args[])
+{
+int i,j,m,n;
+char c;
+Scanner scanner=new Scanner(System.in);
+m=scanner.nextInt();
+System.out.println("enter the rows");
+n=scanner.nextInt();
+System.out.println("enter the column");
+c=scanner.next().CharAt(0);
+for(i=0;i<n;i++)
+{
+for(j=0;j<n;j++)
+{
+System.out.println(c);
+}
+System.out.println();
+}
+}
+}
+
+
+
+
+ 
